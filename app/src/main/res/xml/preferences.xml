@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="pref_clicks"
+        android:title="@string/clicks_label"
+        android:summary="@string/clicks_summary"
+        android:dialogTitle="@string/clicks_label"
+        android:entries="@array/clicks_options"
+        android:entryValues="@array/clicks_values"
+        android:defaultValue="@string/clicks_default" />
+
+</PreferenceScreen>

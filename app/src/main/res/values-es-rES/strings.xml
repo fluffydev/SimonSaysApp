@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simon Dice</string>
+    <string name="clicks_label">Tocadas:</string>
+    <string name="player1_label">Jugador 1:</string>
+    <string name="player2_label">Jugador 2:</string>
+    <string name="redButton_Text">R</string>
+    <string name="blueButton_text">B</string>
+    <string name="yellowButton_text">Y</string>
+    <string name="cyanButton_text">C</string>
+    <string name="greenButton_text">G</string>
+    <string name="magentaButton_text">M</string>
+    <string name="fail_label">¡Perdiste!</string>
+    <string name="win_label">¡Ganaste!</string>
+    <string name="menu_reset">Reset</string>
+    <string name="menu_about">Información</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="clicks_default">5</string>
+    <string name="about">"Esta aplicación simula un juego de Simón Dice.\n
+        El primer jugador pulsará un patrón de teclas equivalente al número que aparece en pantalla. Luego, le dara el dispósitivo al segundo jugador, quien intentará imitar el patrón anterior.\nSi el segundo jugador es exitoso, ambos patrones aparecerán en la parte posteriorde la pantalla (de ser esta visible). Si el segundo jugador no es exitoso,aparecerán ambos patrones hasta mostrar cual fue la pulsada que falló el patrón. "</string>
+    <string name="clicks_summary">"Determina la cantidad depulsadas que se utilizaran para generar el patrón. "</string>
+    <string-array name="clicks_options">
+        <item>Cuatro</item>
+        <item>Cinco</item>
+        <item>Seis</item>
+    </string-array>
+    <string-array name="clicks_values">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="title_label">Entre un patrón:</string>
+    <string name="server_label">Servidor</string>
+    <string name="player_label">Jugador</string>
+    <string name="btnPlay">Jugar</string>
+    <string name="client_title">Simon Dice \"Cliente\"</string>
+    <string name="menu_repeat">Repetir</string>
+</resources>

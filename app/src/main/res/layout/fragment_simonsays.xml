@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horitonal_align"
+    android:paddingBottom="@dimen/activity_vertical_align"
+    android:paddingLeft="@dimen/activity_horitonal_align"
+    android:paddingRight="@dimen/activity_horitonal_align"
+    android:paddingTop="@dimen/activity_vertical_align">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Row_upper_gap">
+
+        <TextView
+            android:id="@+id/clicksLabel"
+            style="@style/TextView.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:text="@string/clicks_label" />
+
+        <TextView
+            android:id="@+id/clicksEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_indent"
+        android:layout_marginStart="@dimen/left_indent"
+        android:layout_marginTop="@dimen/Row_upper_gap"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/titleLabel"
+            style="@style/TextView.Label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_label" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_marginTop="@dimen/table_upper_gap"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/redButton"
+                style="@style/Button.Margin"
+                android:background="@color/Red"
+                android:text="@string/redButton_Text" />
+
+            <Button
+                android:id="@+id/blueButton"
+                style="@style/Button.Margin"
+                android:background="@color/Blue"
+                android:text="@string/blueButton_text" />
+
+            <Button
+                android:id="@+id/yellowButton"
+                style="@style/Button.Margin"
+                android:background="@color/Yellow"
+                android:text="@string/yellowButton_text" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/table_upper_gap">
+
+            <Button
+                android:id="@+id/cyanButton"
+                style="@style/Button.Margin"
+                android:background="@color/Cyan"
+                android:text="@string/cyanButton_text" />
+
+            <Button
+                android:id="@+id/greenButton"
+                style="@style/Button.Margin"
+                android:background="@color/Green"
+                android:text="@string/greenButton_text" />
+
+            <Button
+                android:id="@+id/magentaButton"
+                style="@style/Button.Margin"
+                android:background="@color/Magenta"
+                android:text="@string/magentaButton_text" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_indent"
+        android:layout_marginStart="@dimen/left_indent"
+        android:layout_marginTop="@dimen/Row_upper_gap"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result_text_view" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_indent"
+        android:layout_marginStart="@dimen/left_indent"
+        android:layout_marginTop="@dimen/Row_upper_gap"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/result_p_label"
+            style="@style/TextView.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/player_label" />
+
+        <TextView
+            android:id="@+id/pOnePattern"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextView.Result"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_indent"
+        android:layout_marginStart="@dimen/left_indent"
+        android:layout_marginTop="@dimen/Row_upper_gap"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/result_server__label"
+            style="@style/TextView.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/server_label" />
+
+        <TextView
+            android:id="@+id/server_pattern"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextView.Result"/>
+    </LinearLayout>
+
+
+</LinearLayout>

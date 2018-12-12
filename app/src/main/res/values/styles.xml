@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textViewStyle">@style/TextView</item>
+        <item name="android:radioButtonStyle">@style/RadioButton</item>
+        <item name="android:buttonStyle">@style/Button</item>
+    </style>
+
+    <!-- Styles to be applied automatically -->
+    <style name="TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+
+    <style name="RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_height">40dp</item>
+
+        <item  name="android:textStyle">bold</item>
+    </style>
+
+    <!-- This style needs to be applied manually -->
+    <style name="TextView.Label">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView.Result">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Button.Margin">
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+    </style>
+
+</resources>
